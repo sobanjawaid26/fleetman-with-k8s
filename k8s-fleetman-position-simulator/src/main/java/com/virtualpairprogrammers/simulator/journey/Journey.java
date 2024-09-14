@@ -55,6 +55,7 @@ public class Journey implements Callable<Object>
 				positionMessage.put("time", formatter.format(new java.util.Date()));
 	
 				sendToQueue(positionMessage);
+				log.info(vehicleName + " position : (" + lat + ", " + longitude + ") at time " +  formatter.format(new java.util.Date()));
 	
 				// We have an element of randomness to help the queue be nicely 
 				// distributed

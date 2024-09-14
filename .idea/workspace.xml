@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96fc7132-c646-4c52-af7e-62d03e19a19f" name="Changes" comment="" />
+    <list default="true" id="96fc7132-c646-4c52-af7e-62d03e19a19f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s-fleetman-position-simulator/src/main/java/com/virtualpairprogrammers/simulator/journey/Journey.java" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-fleetman-position-simulator/src/main/java/com/virtualpairprogrammers/simulator/journey/Journey.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2m40BGdury9krxXkXPcz4QboBpw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,7 +39,7 @@
       <recent name="C:\Projects\kubernetes\fleetman-with-k8s" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PositionTrackerApplication">
+  <component name="RunManager" selected="Application.PositionsimulatorApplication">
     <configuration name="PositionTrackerApplication" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -118,6 +128,11 @@
           <url>file://$PROJECT_DIR$/k8s-fleetman-position-tracker/src/main/java/com/virtualpairprogrammers/tracker/data/DataBasicInMemoryImpl.java</url>
           <line>59</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/k8s-fleetman-position-simulator/src/main/java/com/virtualpairprogrammers/simulator/journey/Journey.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
